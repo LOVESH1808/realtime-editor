@@ -25,7 +25,7 @@
     "server:prod": "node server.js",
     "start:front": "react-scripts start",
     "start": "npm install && npm run build && npm run server:prod",
-    "build": "react-scripts build",
+    "build": "npm install && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
